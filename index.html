@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahasa Arab Kelas 4 - Tempat di Sekolah</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .header .arabic-title {
+            font-size: 32px;
+            font-family: 'Traditional Arabic', 'Arial', sans-serif;
+            direction: rtl;
+            margin-top: 10px;
+        }
+
+        .header .subtitle {
+            font-size: 16px;
+            opacity: 0.9;
+            margin-top: 10px;
+        }
+
+        .section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .section h2 {
+            color: #667eea;
+            font-size: 22px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+
+        .tujuan-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .tujuan-list li {
+            padding: 10px;
+            margin-bottom: 8px;
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            border-radius: 5px;
+        }
+
+        .tujuan-list li strong {
+            color: #667eea;
+        }
+
+        .vocab-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .vocab-card {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+
+        .vocab-card:hover {
+            transform: translateY(-5px);
+            border-color: #667eea;
+        }
+
+        .vocab-card .arabic {
+            font-size: 36px;
+            font-family: 'Traditional Arabic', 'Arial', sans-serif;
+            direction: rtl;
+            color: #764ba2;
+            margin-bottom: 10px;
+        }
+
+        .vocab-card .latin {
+            font-size: 14px;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 8px;
+        }
+
+        .vocab-card .meaning {
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .practice-section {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+        }
+
+        .practice-section h2 {
+            color: #856404;
+            border-bottom-color: #ffc107;
+        }
+
+        .practice-instruction {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .practice-instruction p {
+            margin-bottom: 10px;
+        }
+
+        .practice-instruction ol {
+            margin-left: 20px;
+        }
+
+        .practice-instruction li {
+            margin-bottom: 8px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .vocab-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .header h1 {
+                font-size: 22px;
+            }
+
+            .header .arabic-title {
+                font-size: 26px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Bahasa Arab Kelas 4 SD</h1>
+            <div class="arabic-title">الأَمَاكِن فِي المَدْرَسَة</div>
+            <div class="subtitle">Tempat-Tempat di Sekolah</div>
+        </div>
+
+        <div class="section">
+            <h2>Tujuan Pembelajaran</h2>
+            <ul class="tujuan-list">
+                <li><strong>Menyimak dan Menirukan:</strong> Mampu melafalkan 8 kosakata tempat di sekolah dengan benar</li>
+                <li><strong>Mengidentifikasi:</strong> Mampu menjodohkan gambar dengan tulisan Arab yang tepat</li>
+                <li><strong>Membaca:</strong> Mampu membaca kosakata dengan harakat yang lengkap</li>
+                <li><strong>Menulis:</strong> Mampu menulis kosakata dengan ejaan Arab yang benar</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Kosakata Baru</h2>
+            <p style="margin-bottom: 15px;">Pelajari kosakata berikut dengan seksama:</p>
+            
+            <div class="vocab-grid">
+                <div class="vocab-card">
+                    <div class="arabic">حَمَّام</div>
+                    <div class="latin">Hammam</div>
+                    <div class="meaning">Kamar Mandi / Toilet</div>
+                </div>
+
+                <div class="vocab-card">
+                    <div class="arabic">فَصْل</div>
+                    <div class="latin">Fashl</div>
+                    <div class="meaning">Ruang Kelas</div>
+                </div>
+
+                <div class="vocab-card">
+                    <div class="arabic">بُسْتَان</div>
+                    <div class="latin">Bustan</div>
+                    <div class="meaning">Taman / Kebun</div>
+                </div>
+
+                <div class="vocab-card">
+                    <div class="arabic">مَقْصَف</div>
+                    <div class="latin">Maqshaf</div>
+                    <div class="meaning">Kantin Sekolah</div>
+                </div>
+
+                <div class="vocab-card">
+                    <div class="arabic">مِيضَأَة</div>
+                    <div class="latin">Midha'ah</div>
+                    <div class="meaning">Tempat Wudhu</div>
+                </div>
+
+                <div class="vocab-card">
+                    <div class="arabic">مَكْتَبَة</div>
+                    <div class="latin">Maktabah</div>
+                    <div class="meaning">Perpustakaan</div>
+                </div>
+
+                <div class="vocab-card">
+                    <div class="arabic">مُسْتَوْدَع</div>
+                    <div class="latin">Mustawda'</div>
+                    <div class="meaning">Gudang</div>
+                </div>
+
+                <div class="vocab-card">
+                    <div class="arabic">سَاحَة</div>
+                    <div class="latin">Sahah</div>
+                    <div class="meaning">Lapangan / Halaman</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section practice-section">
+            
+
+        <div class="footer">
+            <p>Modul Pembelajaran Bahasa Arab - Kelas 4 SD</p>
+            <p>Semangat Belajar!</p>
+        </div>
+    </div>
+</body>
+</html>
